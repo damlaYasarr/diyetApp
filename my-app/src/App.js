@@ -66,7 +66,6 @@ function App() {
       <div className="mt-3" style={{ fontSize: '19px' }}>
   {assistantResponses.map((response, index) => (
   
- 
       <p key={index}>{response.role}: {response.content}</p>
  
   ))}

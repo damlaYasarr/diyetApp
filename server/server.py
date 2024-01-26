@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import openai
 from flask_cors import CORS
-openai.api_key="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"
+openai.api_key="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"
 app = Flask(__name__)
 CORS(app)
 
