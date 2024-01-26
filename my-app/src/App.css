@@ -1,0 +1,21 @@
+.App {
+    background-image: url('https://images.unsplash.com/photo-1560238786-aa5717f6ba63?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fGZsb3dlcnN8ZW58MHx8MHx8fDA%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /* Keep the background fixed */
+    width: 100%;
+    height: 100vh;
+   
+    margin: 0; /* Remove default margin to avoid spacing issues */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff; /* Set text color to white for better readability */
+  }
+  
+  .container {
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background color */
+    padding: 2rem;
+    border-radius: 10px; /* Add some border radius for a rounded look */
+  }
