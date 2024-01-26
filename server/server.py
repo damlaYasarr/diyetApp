@@ -1,10 +1,18 @@
 from flask import Flask, request, jsonify
 import openai
+from dotenv import load_dotenv
+import os
 from flask_cors import CORS
-openai.api_key="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"
+load_dotenv()
+
+
+API_KEY=os.getenv("API_KEY")
+
 app = Flask(__name__)
 CORS(app)
 
+
+openai.api_key=API_KEY
 @app.route('/', methods=['POST'])
 def ask_question():
     data = request.get_data(as_text=True)
