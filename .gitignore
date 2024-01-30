@@ -1,2 +1,12 @@
-.vercel
 /node_modules
+
+
+vercel.json
+*.env
+
+
+
+*.env
+*.env.example
+*.env.local
+*.env.staging
