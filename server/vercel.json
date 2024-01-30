@@ -1,12 +1,4 @@
 {
   "version": 2,
-  "builds":[
-    {
-      "src":"server.py",
-      "use":"@vercel/python"
-    }
-  ],
-  
-    "rewrites": [{ "source": "/(.*)", "destination": "server.py" }]
-  
-  }
+  "rewrites": [{ "source": "/(.*)", "destination": "server.py" }]
+}
