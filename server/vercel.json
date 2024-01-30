@@ -3,7 +3,8 @@
   "routes": [
     {
       "src": "/",
-      "dest": "server/index.py"
+      "dest": "index.handler",
+      "methods": ["POST"]
     }
   ]
 }

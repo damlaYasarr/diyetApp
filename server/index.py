@@ -3,6 +3,7 @@ import openai
 from dotenv import load_dotenv
 import os
 from flask_cors import CORS
+
 load_dotenv()
 
 API_KEY = os.getenv("API_KEY")
@@ -28,5 +29,13 @@ def ask_question():
     assistant_response = user_response['choices'][0]['message']['content']
     return assistant_response
 
+# Bu satırı ekledik
+def handler(request):
+    if request.method == 'POST':
+        return app(request)
+    else:
+        return 'This is a Flask serverless function. Send a POST request to use it.'
+
+# Bu satırı ekledik
 if __name__ == '__main__':
     app.run(debug=True, host='localhost', port=8080)
