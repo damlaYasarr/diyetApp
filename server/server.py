@@ -28,6 +28,3 @@ def ask_question():
 
     assistant_response = user_response['choices'][0]['message']['content']
     return assistant_response
-
-if __name__ == '__main__':
-    app.run(debug=True, host='localhost', port=8080)
