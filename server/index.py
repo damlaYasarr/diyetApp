@@ -14,6 +14,7 @@ openai.api_key = API_KEY
 
 @app.route('/', methods=['POST'])
 def ask_question():
+    
     data = request.get_data(as_text=True)
    
     user_response = openai.ChatCompletion.create(
