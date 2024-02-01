@@ -12,7 +12,7 @@ function App() {
     try {
       setLoading(true);
   
-      const response = await fetch('http://localhost:8080/', {
+      const response = await fetch('http://localhost:8080/     ', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

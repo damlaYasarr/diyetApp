@@ -29,8 +29,10 @@ def ask_question():
 
     assistant_response = user_response['choices'][0]['message']['content']
     return assistant_response
-
+@app.route('/ask')
+def soru():
+    return "burası backend"
 
 # Bu satırı ekledik
 if __name__ == '__main__':
-    app.run(debug=True, host='localhost', port=8080)
+    app.run(debug=True, host='0.0.0.0', port=8080)
