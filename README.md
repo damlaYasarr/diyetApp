@@ -1,0 +1,7 @@
+- 
+
+
+- dependencies: 
+
+
+python, openai, 
