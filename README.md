@@ -14,6 +14,6 @@
 
 [link is here](https://nutriapp2.pythonanywhere.com/)  
 
-![img](appNutrition/server/static/untitle.png)
+![img](https://github.com/damlaYasarr/diyetApp/blob/main/server/static/untitle.png)
 
 - The basic logic of the site is to ask some questions about nutrition and get answers. The AI model is to answer only diet-related questions.
