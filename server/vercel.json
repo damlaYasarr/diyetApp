@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "python3 ./index.py"
+      "dest": "index.py"
     }
   ]
 }
